@@ -1,9 +1,9 @@
 <template>
-  <section :id='props.title' aria-labelledby="popular-title" class="mb-4">
+  <section :id="props.title" aria-labelledby="popular-title" class="mb-4">
     <!-- Title row -->
     <div class="flex items-center mb-4">
       <h2 id="popular-title" class="text-xl font-semibold text-white">
-        {{props.title}}
+        {{ props.title }}
       </h2>
     </div>
 
@@ -15,12 +15,12 @@
         class="block group overflow-hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-transparent rounded-lg"
       >
         <div
-          class="aspect-square rounded-md overflow-hidden bg-gray-200 hover:scale-105"
+          class="rounded-md overflow-hidden bg-gray-200 hover:scale-105 w-[200px] h-[200px]"
         >
           <img
             :src="`https://img.9dgame7.com/myimgweb/uploads/images/20250425/${imgUrl}`"
             :alt="title"
-            class="w-full h-full object-cover transition-transform duration-300"
+            class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
           />
         </div>
         <p

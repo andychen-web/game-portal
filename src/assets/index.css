@@ -5,7 +5,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+#app {
+  background-color: black;
+}
 /* *=========== Default theme =========== */
 /* @layer base {
   :root {
