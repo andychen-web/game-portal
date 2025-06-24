@@ -1,6 +1,7 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <router-view/>
+  <div class="p-4">
+    <router-view />
+  </div>
 </template>
