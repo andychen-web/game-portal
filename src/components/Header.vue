@@ -7,7 +7,13 @@ import { Button } from "@/components/ui/button";
     class="w-[540px] bg-black lg:max-w-screen-xl mx-auto sticky z-40 flex justify-between items-center p-2 shadow-md"
   >
     <!-- Left: Logo -->
-    <a href="/" class="font-bold text-lg flex items-center text-white">Logo</a>
+    <a href="/" class="font-bold text-lg flex items-center text-white">
+      <img
+        src="../assets/logo.png"
+        alt="logo"
+        class="h-10 w-auto"
+      />
+    </a>
 
     <!-- Right: Buttons -->
     <div class="flex gap-2 items-center">

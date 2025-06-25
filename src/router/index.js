@@ -1,9 +1,9 @@
-import { createRouter, createWebHistory } from "vue-router";
 import ProductPage from "@/pages/ProductPage.vue";
+import { createRouter, createWebHistory } from "vue-router";
 // import NotFoundPage from '@/pages/NotFoundPage.vue'
 import HomePage from "@/pages/HomePage.vue";
 import PromotionsPage from "@/pages/PromotionsPage.vue";
-import RegisterPage from "@/pages/RegisterPage.vue";
+import RegisterPage from "../pages/RegisterPage.vue";
 const routes = [
   {
     path: "/",
