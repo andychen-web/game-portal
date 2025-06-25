@@ -34,6 +34,6 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "src/router/index.js"
-  ],
+, "src/composables/utils.js"  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

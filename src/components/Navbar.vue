@@ -13,30 +13,27 @@
             ? 'text-white'
             : 'text-accent hover:text-white focus:text-white'
         "
+        @click="onNavItemClick(item)"
       >
         <component
           :is="iconMap[item.icon]"
           class="w-8 h-8"
-          :stroke="item.isActive ? 'white' : 'black'"
+          :stroke="item.isActive ? 'white' : 'grey'"
         />
         <!-- 等同於 <Icon stroke="white" class="w-8 h-8" /> -->
-
         <span
           class="mt-0.5 text-xs leading-tight truncate"
-          :class="item.isActive ? 'text-white' : 'text-black'"
           >{{ item.label }}</span
         >
       </button>
-
-      <div
-        class="absolute bottom-0 left-0 w-1/5 h-1 transition-all duration-300 ease-in-out bg-white"
-      ></div>
     </div>
   </nav>
 </template>
 
 <script setup lang="ts">
-import { Home, Tag, UserPlus, DownloadCloud, User } from "lucide-vue-next";
+import router from "@/router";
+import { DownloadCloud, Home, Tag, User, UserPlus } from "lucide-vue-next";
+import { onMounted, reactive } from "vue";
 
 const iconMap = {
   home: Home,
@@ -45,12 +42,45 @@ const iconMap = {
   downloadcloud: DownloadCloud,
   user: User,
 };
+interface NavItem {
+  label: string;
+  icon: keyof typeof iconMap;
+  isActive: boolean;
+  route?: string;
+}
+const navItems: NavItem[] = reactive([
+  { label: "Home", icon: "home", isActive: false, route: "/" },
+  { label: "Promotions", icon: "tag", isActive: false, route: "/promotions" },
+  { label: "Register", icon: "userplus", isActive: false, route: "/register" },
+  {
+    label: "Download",
+    icon: "downloadcloud",
+    isActive: false,
+    route: "/download",
+  },
+  { label: "Account", icon: "user", isActive: false, route: "/account" },
+]);
 
-const navItems = [
-  { label: "Início", icon: "home", isActive: true },
-  { label: "Promoções", icon: "tag", isActive: false },
-  { label: "Registrar", icon: "userplus", isActive: false },
-  { label: "Baixar", icon: "downloadcloud", isActive: false },
-  { label: "Minha", icon: "user", isActive: false },
-];
+const onNavItemClick = (item) => {
+  if (item.route) {
+    router.push(item.route);
+  }
+  // item.isActive = !item.isActive;
+  navItems.forEach((navItem) => {
+    // navItem.isActive = navItem.route === item.route;
+    if (navItem.label === item.label) {
+      navItem.isActive = !navItem.isActive;
+    } else {
+      navItem.isActive = false;
+    }
+  });
+};
+
+onMounted(() => {
+  navItems.forEach((navItem) => {
+    if (navItem.route === window.location.pathname) {
+      navItem.isActive = true;
+    }
+  });
+});
 </script>

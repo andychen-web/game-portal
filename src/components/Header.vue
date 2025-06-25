@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 <template>
   <header
-    class="w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl mx-auto sticky z-40 rounded-2xl flex justify-between items-center p-2 shadow-md"
+    class="w-[540px] bg-black lg:max-w-screen-xl mx-auto sticky z-40 flex justify-between items-center p-2 shadow-md"
   >
     <!-- Left: Logo -->
     <a href="/" class="font-bold text-lg flex items-center text-white">Logo</a>

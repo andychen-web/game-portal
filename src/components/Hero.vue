@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full rounded-lg overflow-hidden aspect-[2/0.7] relative">
+  <div class="w-full overflow-hidden aspect-[2/0.7] relative">
     <Swiper
       :modules="[Pagination, EffectFade, Autoplay]"
       effect="fade"
@@ -29,7 +29,7 @@ import { EffectFade, Pagination, Autoplay } from "swiper/modules";
 import { ref } from "vue";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-vue-next";
-import { fetchUnsplashImages } from "@/modules/global";
+import { fetchUnsplashImages } from "@/utils/global";
 
 const banners = ref([]);
 
