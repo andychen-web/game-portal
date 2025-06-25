@@ -123,7 +123,7 @@
     </a>
   </Card>
 </template>
-
+ 
 <script setup>
 import { Button } from "@/components/ui/button";
 import FAQ from "@/components/ui/faq/FAQ.vue";
