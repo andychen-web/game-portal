@@ -5,6 +5,10 @@
 html {
   scroll-behavior: smooth;
 }
+/* custom classes */
+.heading-2 {
+  @apply text-xl sm:text-2xl font-semibold mb-6;
+}
 /* *=========== Default theme =========== */
 /* @layer base {
   :root {

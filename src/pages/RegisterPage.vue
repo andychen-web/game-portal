@@ -121,9 +121,3 @@ const iconMap = {
   sparkle: Sparkle,
 };
 </script>
-
-<style scoped>
-.heading-2 {
-  @apply text-xl sm:text-2xl font-semibold mb-6;
-}
-</style>

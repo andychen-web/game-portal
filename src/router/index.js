@@ -4,6 +4,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomePage from "@/pages/HomePage.vue";
 import PromotionsPage from "@/pages/PromotionsPage.vue";
 import RegisterPage from "../pages/RegisterPage.vue";
+import DownloadPage from "../pages/DownloadPage.vue";
+import AccountPage from "../pages/AccountPage.vue";
 const routes = [
   {
     path: "/",
@@ -24,6 +26,16 @@ const routes = [
     path: "/register",
     name: "Register",
     component: RegisterPage,
+  },
+  {
+    path: "/download",
+    name: "Download",
+    component: DownloadPage,
+  },
+  {
+    path: "/account",
+    name: "Account",
+    component: AccountPage,
   },
   // Catch-all route for undefined paths 必須放最後
   // {
