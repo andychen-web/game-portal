@@ -8,16 +8,24 @@
         :key="item.label"
         type="button"
         class="flex flex-col items-center justify-center flex-1 min-w-0 px-1 text-center focus:outline-none"
-        :class="item.isActive
-          ? 'text-white'
-          : 'text-accent hover:text-white focus:text-white'"
+        :class="
+          item.isActive
+            ? 'text-white'
+            : 'text-accent hover:text-white focus:text-white'
+        "
       >
         <component
           :is="iconMap[item.icon]"
           class="w-8 h-8"
-          :stroke="item.isActive ? 'white' : 'currentColor'"
+          :stroke="item.isActive ? 'white' : 'black'"
         />
-        <span class="mt-0.5 text-xs leading-tight truncate">{{ item.label }}</span>
+        <!-- 等同於 <Icon stroke="white" class="w-8 h-8" /> -->
+
+        <span
+          class="mt-0.5 text-xs leading-tight truncate"
+          :class="item.isActive ? 'text-white' : 'text-black'"
+          >{{ item.label }}</span
+        >
       </button>
 
       <div
@@ -37,7 +45,6 @@ const iconMap = {
   downloadcloud: DownloadCloud,
   user: User,
 };
-
 
 const navItems = [
   { label: "Início", icon: "home", isActive: true },
