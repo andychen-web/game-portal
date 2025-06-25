@@ -120,7 +120,7 @@
         <path d="..." />
       </svg>
       <span>Download App Now</span>
-    </a>
+    </a> 
   </Card>
 </template>
  
