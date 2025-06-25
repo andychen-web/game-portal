@@ -26,7 +26,7 @@ const swiperOptions: SwiperOptions = {
   effect: "fade",
   loop: true,
   pagination: { clickable: true },
-  autoplay: { delay: 3000, disableOnInteraction: false },
+  autoplay: { delay: 1000 },
   modules: [EffectFade, Pagination, Autoplay],
 };
 
