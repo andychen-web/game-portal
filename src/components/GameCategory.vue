@@ -35,7 +35,7 @@
           <a
             :href="tab.href"
             :aria-current="tab.active ? 'page' : undefined"
-            class="flex flex-col items-center justify-center text-center py-3 px-2 min-w-[72px] sm:min-w-[80px] h-[70px] rounded-t-md group transition-all duration-150 ease-in-out border-b-2"
+            class="flex flex-col items-center justify-center text-center px-2 min-w-[72px] sm:min-w-[80px] h-[70px] rounded-t-md group transition-all duration-150 ease-in-out border-b-2"
             :class="tab.active
               ? 'border-primary text-primary focus:outline-none focus:ring-1 focus:ring-primary focus:z-10'
               : 'border-transparent text-gray-600 hover:text-primary hover:border-primary-300 focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary focus:z-10'"
