@@ -5,9 +5,6 @@ import Navbar from "./components/Navbar.vue";
 
 <template>
   <Header />
-  <!-- 主要迎合手機用戶 排版-->
-  <div class="w-full mx-auto mb-16 ">
-    <router-view />
-  </div>
+  <router-view />
   <Navbar />
 </template>
