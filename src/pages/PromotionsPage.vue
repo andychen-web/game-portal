@@ -16,7 +16,7 @@
           :aria-label="title"
         >
           <!-- Image with max width 500px and auto height -->
-          <div class="relative mx-auto max-w-[500px] w-full">
+          <div class="relative mx-auto w-full">
             <img
               :src="imgUrl"
               :alt="`Promotion Image: ${title}`"

@@ -77,22 +77,6 @@
     <section class="bg-primary-100 py-6 sm:py-8 mb-4">
       <div class="container mx-auto px-4">
         <div class="flex flex-col items-center text-center space-y-4">
-          <div class="flex items-center space-x-4">
-            <svg
-              class="w-10 h-10 text-primary"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="..." />
-            </svg>
-            <svg
-              class="w-10 h-10 text-primary"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="..." />
-            </svg>
-          </div>
           <p class="text-xl sm:text-2xl font-semibold text-gray-900 max-w-lg">
             Multi-layer encryption technology to protect your funds and privacy.
           </p>
