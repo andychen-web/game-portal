@@ -13,7 +13,7 @@
     <!-- Categories nav -->
     <div
       v-if="showCategories"
-      class="flex gap-2 mb-4 w-full overflow-x-scroll overflow-y-hidden whitespace-nowrap"
+      class="flex gap-2 mb-4 w-full overflow-x-auto overflow-y-hidden whitespace-nowrap"
     >
       <a
         v-for="cat in derivedCategories"
@@ -42,7 +42,7 @@
         >
           <summary
             :id="faq.category"
-            class="flex border rounded  shadow-sm justify-between items-center w-full py-3.5 px-4 font-medium text-left text-primary-700 hover:bg-primary-100 cursor-pointer"
+            class="flex border rounded shadow-sm justify-between items-center w-full py-3.5 px-4 font-medium text-left text-primary-700 hover:bg-primary-100 cursor-pointer"
           >
             {{ faq.question }}
             <svg
