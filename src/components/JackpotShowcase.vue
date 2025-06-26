@@ -135,17 +135,17 @@
     class="w-[98%] mx-auto my-4"
   >
     <div
-      class="aspect-[13/3] rounded-lg shadow-md bg-cover bg-center relative overflow-hidden group"
+      class="aspect-[13/3] rounded-lg shadow-md bg-cover   h-[150px] bg-center relative overflow-hidden group" 
       :style="{ backgroundImage: `url(${backgroundImage})` }"
     >
       <!-- Gradient overlay -->
       <div
-        class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-black/10"
+        class="absolute inset-0 bg-gradient-to-t  from-black/60 via-black/30 to-black/10"
       ></div>
 
       <!-- Content -->
       <div
-        class="relative z-10 flex flex-col items-center h-full text-white px-2"
+        class="relative z-10 flex flex-col items-center text-white px-2"
       >
         <div class="w-full text-center" style="padding-top: 11%">
           <h2
