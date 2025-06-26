@@ -13,7 +13,7 @@
     <!-- Categories nav -->
     <div
       v-if="showCategories"
-      class="flex gap-2 mb-4 w-full h-[3rem] overflow-x-scroll overflow-y-hidden whitespace-nowrap"
+      class="flex gap-2 mb-4 w-full overflow-x-scroll overflow-y-hidden whitespace-nowrap"
     >
       <a
         v-for="cat in derivedCategories"

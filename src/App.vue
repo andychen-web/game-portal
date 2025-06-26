@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar.vue";
 <template>
   <Header />
   <!-- 主要迎合手機用戶 排版-->
-  <div id="main" class="w-[540px] mx-auto mt-4 mb-16">
+  <div class="w-full sm:w-[540px] mx-auto mb-16 ">
     <router-view />
   </div>
   <Navbar />

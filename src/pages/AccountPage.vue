@@ -73,57 +73,62 @@
       </div>
     </div>
   </section>
-
-  <section class="bg-primary-100 py-6 sm:py-8 mb-4">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-col items-center text-center space-y-4">
-        <div class="flex items-center space-x-4">
-          <svg
-            class="w-10 h-10 text-primary"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path d="..." />
-          </svg>
-          <svg
-            class="w-10 h-10 text-primary"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path d="..." />
-          </svg>
+  <div class="page-wrap">
+    <section class="bg-primary-100 py-6 sm:py-8 mb-4">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col items-center text-center space-y-4">
+          <div class="flex items-center space-x-4">
+            <svg
+              class="w-10 h-10 text-primary"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="..." />
+            </svg>
+            <svg
+              class="w-10 h-10 text-primary"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="..." />
+            </svg>
+          </div>
+          <p class="text-xl sm:text-2xl font-semibold text-gray-900 max-w-lg">
+            Multi-layer encryption technology to protect your funds and privacy.
+          </p>
         </div>
-        <p class="text-xl sm:text-2xl font-semibold text-gray-900 max-w-lg">
-          Multi-layer encryption technology to protect your funds and privacy.
-        </p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <FAQ :faqs="faqList" :showInput="true" :showCategories="true" />
+    <FAQ :faqs="faqList" :showInput="true" :showCategories="true" />
 
-  <Card class="my-4 p-8 text-center">
-    <h2 class="text-2xl sm:text-3xl font-semibold text-[#4B5563] mb-4">
-      Unlock the 9d World: Download the App!
-    </h2>
-    <p class="text-base sm:text-lg text-gray-600 mb-8">
-      Get full access to exclusive games, incredible bonuses and the best Slots
-      performance. Install the 9d app now.
-    </p>
-    <a
-      href="https://c3.maxcloudlink.com?ch=FNG0B"
-      target="_blank"
-      rel="nofollow"
-      class="inline-flex items-center justify-center py-2.5 px-5 sm:py-3 sm:px-6 text-base sm:text-lg font-medium rounded-md shadow-sm bg-[#4B5563] text-white hover:bg-[#374151] focus:outline-none focus:ring-2 focus:ring-[#4B5563] focus:ring-offset-2 focus:ring-offset-white transition-colors duration-150 ease-in-out"
-    >
-      <svg class="w-5 h-5 mr-2 sm:mr-3" viewBox="0 0 20 20" fill="currentColor">
-        <path d="..." />
-      </svg>
-      <span>Download App Now</span>
-    </a> 
-  </Card>
+    <Card class="my-4 p-8 text-center">
+      <h2 class="text-2xl sm:text-3xl font-semibold text-[#4B5563] mb-4">
+        Unlock the 9d World: Download the App!
+      </h2>
+      <p class="text-base sm:text-lg text-gray-600 mb-8">
+        Get full access to exclusive games, incredible bonuses and the best
+        Slots performance. Install the 9d app now.
+      </p>
+      <a
+        href="https://c3.maxcloudlink.com?ch=FNG0B"
+        target="_blank"
+        rel="nofollow"
+        class="inline-flex items-center justify-center py-2.5 px-5 sm:py-3 sm:px-6 text-base sm:text-lg font-medium rounded-md shadow-sm bg-[#4B5563] text-white hover:bg-[#374151] focus:outline-none focus:ring-2 focus:ring-[#4B5563] focus:ring-offset-2 focus:ring-offset-white transition-colors duration-150 ease-in-out"
+      >
+        <svg
+          class="w-5 h-5 mr-2 sm:mr-3"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path d="..." />
+        </svg>
+        <span>Download App Now</span>
+      </a>
+    </Card>
+  </div>
 </template>
- 
+
 <script setup>
 import { Button } from "@/components/ui/button";
 import FAQ from "@/components/ui/faq/FAQ.vue";

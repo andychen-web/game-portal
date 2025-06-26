@@ -1,5 +1,5 @@
 <template>
-  <section :id="props.title" aria-labelledby="popular-title" class="mb-4">
+  <section :id="props.title" aria-labelledby="popular-title" class="mb-6 px-2 sm:px-4">
     <!-- Title row -->
     <div class="flex items-center mb-4">
       <h2 id="popular-title" class="text-xl font-semibold text-white">
@@ -7,16 +7,16 @@
       </h2>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-3 gap-y-4">
+    <div
+      class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-x-3 gap-y-4 justify-items-center"
+    >
       <a
         v-for="{ title, imgUrl } in games"
         :key="title"
         href="#"
-        class="block group overflow-hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-transparent rounded-lg"
+        class="block group w-full max-w-[180px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-transparent rounded-lg"
       >
-        <div
-          class="rounded-md overflow-hidden bg-gray-200 hover:scale-105 w-[200px] h-[200px]"
-        >
+        <div class="aspect-square rounded-md overflow-hidden bg-gray-200">
           <img
             :src="`https://img.9dgame7.com/myimgweb/uploads/images/20250425/${imgUrl}`"
             :alt="title"

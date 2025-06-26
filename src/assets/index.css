@@ -9,6 +9,9 @@ html {
 .heading-2 {
   @apply text-xl sm:text-2xl font-semibold mb-6;
 }
+.page-wrap {
+  @apply container py-4;
+}
 /* *=========== Default theme =========== */
 /* @layer base {
   :root {
@@ -89,7 +92,7 @@ html {
     --popover-foreground: 20 14.3% 4.1%;
 
     /* 主色 */
-    --primary: 0 0% 0%; 
+    --primary: 0 0% 0%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 60 4.8% 95.9%;

@@ -1,6 +1,6 @@
 <template>
-  <section class="container py-8">
-    <h2 class="font-semibold mb-6">Promotions and Special Offers</h2>
+  <section class="page-wrap">
+    <h2 class="heading-2">Promotions and Special Offers</h2>
 
     <div class="grid sm:grid-cols-1 gap-6">
       <Card

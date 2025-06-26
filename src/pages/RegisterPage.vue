@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="page-wrap">
     <h2 class="heading-2">Guias e Tutoriais</h2>
     <Accordion :isExpandable="false" />
     <h2 class="heading-2 mt-8">Perguntas Frequentes (FAQ)</h2>
