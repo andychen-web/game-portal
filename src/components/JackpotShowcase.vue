@@ -52,7 +52,7 @@
               >Promoção:
               <strong class="text-[#4B5563]">Bônus de 100%</strong> no depósito!
               <a
-                href="https://c3.maxcloudlink.com?ch=FNG0B"
+                href=""
                 target="_blank"
                 rel="nofollow"
                 class="text-[#4B5563] font-semibold hover:text-[#374151] hover:underline"
@@ -64,7 +64,7 @@
               >Promoção:
               <strong class="text-[#4B5563]">Bônus de 100%</strong> no depósito!
               <a
-                href="https://c3.maxcloudlink.com?ch=FNG0B"
+                href=""
                 target="_blank"
                 rel="nofollow"
                 class="text-[#4B5563] font-semibold hover:text-[#374151] hover:underline"
@@ -84,7 +84,7 @@
               >Novos jogos de Slots adicionados! Explore e descubra seus
               favoritos para grandes ganhos! 🎰
               <a
-                href="https://c3.maxcloudlink.com?ch=FNG0B"
+                href=""
                 target="_blank"
                 rel="nofollow"
                 class="text-[#4B5563] font-semibold hover:text-[#374151] hover:underline"
@@ -95,7 +95,7 @@
               >Novos jogos de Slots adicionados! Explore e descubra seus
               favoritos para grandes ganhos! 🎰
               <a
-                href="https://c3.maxcloudlink.com?ch=FNG0B"
+                href=""
                 target="_blank"
                 rel="nofollow"
                 class="text-[#4B5563] font-semibold hover:text-[#374151] hover:underline"
@@ -107,7 +107,7 @@
       </div>
     </div>
     <a
-      href="https://c3.maxcloudlink.com?ch=FNG0B"
+      href=""
       target="_blank"
       rel="nofollow"
       class="flex-shrink-0 relative"
@@ -132,7 +132,7 @@
 
   <section
     aria-labelledby="jackpot-showcase-title"
-    class="w-[98%] mx-auto my-4"
+    class="w-[98%] mx-auto my-4 flex justify-center"
   >
     <div
       class="aspect-[13/3] rounded-lg shadow-md bg-cover   h-[150px] bg-center relative overflow-hidden group" 

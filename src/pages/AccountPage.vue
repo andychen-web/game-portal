@@ -95,7 +95,7 @@
         Slots performance. Install the 9d app now.
       </p>
       <a
-        href="https://c3.maxcloudlink.com?ch=FNG0B"
+        href=""
         target="_blank"
         rel="nofollow"
         class="inline-flex items-center justify-center py-2.5 px-5 sm:py-3 sm:px-6 text-base sm:text-lg font-medium rounded-md shadow-sm bg-[#4B5563] text-white hover:bg-[#374151] focus:outline-none focus:ring-2 focus:ring-[#4B5563] focus:ring-offset-2 focus:ring-offset-white transition-colors duration-150 ease-in-out"
@@ -123,8 +123,8 @@ const players = [
     name: "Lucky Player",
     badge: "VIP GOLD",
     balance: "R$ ****,**",
-    depositLink: "https://c3.maxcloudlink.com?ch=FNG0B",
-    withdrawLink: "https://c3.maxcloudlink.com?ch=FNG0B",
+    depositLink: "",
+    withdrawLink: "",
   },
 ];
 const faqList = [

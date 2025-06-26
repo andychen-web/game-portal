@@ -2,7 +2,7 @@
   <section class="page-wrap">
     <h2 class="heading-2">Promotions and Special Offers</h2>
 
-    <div class="grid sm:grid-cols-1 gap-6">
+    <div class="grid sm:grid-cols-1 gap-6 ">
       <Card
         v-for="({ imgUrl, title, desc, link, tag }, index) in list"
         :key="index"
@@ -62,7 +62,7 @@ const list = reactive<ListItem[]>([
       "https://img.9dgame7.com/myimgweb/uploads/images/20250425/680b5034de0b5.webp",
     title: "VIP Welcome Bonus",
     desc: "Sign up today and receive an exclusive 150% bonus on your first deposit, plus 50 free spins on our most popular slots.",
-    link: "https://c3.maxcloudlink.com?ch=FNG0B",
+    link: "",
     tag: "NEW",
   },
   {
@@ -70,7 +70,7 @@ const list = reactive<ListItem[]>([
       "https://img.9dgame7.com/myimgweb/uploads/images/20250425/680b3dd906583.webp",
     title: "VIP Welcome Bonus",
     desc: "Sign up today and receive an exclusive 150% bonus on your first deposit, plus 50 free spins on our most popular slots.",
-    link: "https://c3.maxcloudlink.com?ch=FNG0B",
+    link: "",
     tag: "NEW",
   },
   // Add more promotions here if needed

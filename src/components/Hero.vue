@@ -1,5 +1,4 @@
 <template>
-  <!-- height 500px -->
   <div class="w-full h-[180px]  overflow-hidden aspect-[2/0.7] relative">
     <Swiper v-bind="swiperOptions" class="w-full h-full">
       <SwiperSlide v-for="(banner, idx) in banners" :key="idx">

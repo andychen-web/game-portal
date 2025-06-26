@@ -233,13 +233,13 @@ const iosSections = [
       <span class="text-sm text-gray-500">
       If the 9d app is available on the App Store, simply search for "9d" and install directly from there.
       </span>`,
-    downloadLink: "https://c3.maxcloudlink.com?ch=FNG0B",
+    downloadLink: "",
     downloadText: "Download the 9d App Now",
     safetyText: `Official and genuine APP, verified for safety. Download with confidence.`,
     version: "V2.3.5",
     updatedOn: "2024-03-15",
     fileSize: "Approx. 45 MB",
-    supportLink: "https://c3.maxcloudlink.com?ch=FNG0B",
+    supportLink: "",
   },
 ];
 </script>

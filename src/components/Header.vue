@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 <template>
   <header
-    class="w-full bg-black mx-auto sticky z-40 flex justify-between items-center px-4 py-2 shadow-md max-w-screen-xl"
+    class="w-full bg-black mx-auto sticky z-40 flex justify-between items-center px-4 py-2 shadow-md"
   >
     <!-- Left: Logo -->
     <a
