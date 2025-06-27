@@ -88,10 +88,10 @@
 
     <Card class="my-4 p-8 text-center">
       <h2 class="text-2xl sm:text-3xl font-semibold text-[#4B5563] mb-4">
-        Desbloqueie o Mundo 9d: Baixe o App!
+        Desbloqueie o Mundo j1: Baixe o App!
       </h2>
       <p class="text-base sm:text-lg text-gray-600 mb-8">
-        Tenha acesso total a jogos exclusivos, bônus incríveis e o melhor desempenho em slots. Instale o app 9d agora.
+        Tenha acesso total a jogos exclusivos, bônus incríveis e o melhor desempenho em slots. Instale o app j1 agora.
       </p>
       <a
         href=""
@@ -128,29 +128,29 @@ const players = [
 ];
 const faqList = [
   {
-    question: "How do I sign up?",
-    answer: "Click on register...",
-    category: "Account",
+    question: "Como faço para me cadastrar?",
+    answer: "Clique em registrar...",
+    category: "Conta",
   },
   {
-    question: "How to deposit?",
-    answer: "Use Pix or bank transfer...",
-    category: "Deposits",
+    question: "Como depositar?",
+    answer: "Use Pix ou transferência bancária...",
+    category: "Depósitos",
   },
   {
-    question: "Game rules?",
-    answer: "Each game has its own rules...",
-    category: "Games Rules and FAQ",
+    question: "Regras do jogo?",
+    answer: "Cada jogo possui suas próprias regras...",
+    category: "Regras e FAQ dos Jogos",
   },
   {
-    question: "Game rules?",
-    answer: "Each game has its own rules...",
-    category: " Detailed Category",
+    question: "Regras do jogo?",
+    answer: "Cada jogo possui suas próprias regras...",
+    category: "Categoria Detalhada",
   },
   {
-    question: "Game rules?",
-    answer: "Each game has its own rules...",
-    category: "Very Detailed Category",
+    question: "Regras do jogo?",
+    answer: "Cada jogo possui suas próprias regras...",
+    category: "Categoria Muito Detalhada",
   },
 ];
 </script>

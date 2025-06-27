@@ -82,22 +82,22 @@ import Accordion from "../components/ui/accordion/Accordion.vue";
 import FAQ from "@/components/ui/faq/FAQ.vue";
 import { Sparkle } from "lucide-vue-next";
 import { reactive } from "vue";
-interface ListItem {}
-const faqList: ListItem[] = reactive([
+
+const faqList = reactive([
   {
-    question: "How do I sign up?",
-    answer: "Click on register...",
-    category: "Account",
+    question: "Como faço para me cadastrar?",
+    answer: "Clique em registrar...",
+    category: "Conta",
   },
   {
-    question: "How to deposit?",
-    answer: "Use Pix or bank transfer...",
-    category: "Deposits",
+    question: "Como depositar?",
+    answer: "Use Pix ou transferência bancária...",
+    category: "Depósitos",
   },
   {
-    question: "Game rules?",
-    answer: "Each game has its own rules...",
-    category: "Games",
+    question: "Regras do jogo?",
+    answer: "Cada jogo possui suas próprias regras...",
+    category: "Jogos",
   },
 ]);
 

@@ -28,7 +28,7 @@
                 target="_blank"
                 rel="nofollow"
                 class="text-[#4B5563] font-semibold hover:text-[#374151] hover:underline"
-                >9d.com</a
+                >j1.com</a
               >! 💎</span
             >
             <span class="pr-8"
@@ -37,7 +37,7 @@
                 target="_blank"
                 rel="nofollow"
                 class="text-[#4B5563] font-semibold hover:text-[#374151] hover:underline"
-                >9d.com</a
+                >j1.com</a
               >! 💎</span
             >
           </div>

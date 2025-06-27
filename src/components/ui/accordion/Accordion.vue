@@ -57,23 +57,23 @@ const toggle = (index: number) => {
 
 const items = [
   {
-    title: "Beginner's Guide",
-    content: "Step-by-step instructions for new users.",
+    title: "Guia para Iniciantes",
+    content: "Instruções passo a passo para novos usuários.",
     icon: BookOpen,
   },
   {
-    title: "Recharge Tutorial",
-    content: "Learn how to recharge your account securely.",
+    title: "Tutorial de Recarga",
+    content: "Aprenda como recarregar sua conta com segurança.",
     icon: Wallet,
   },
   {
-    title: "Withdrawal Tutorial",
-    content: "Click on Wallet, then Withdraw to proceed.",
+    title: "Tutorial de Saque",
+    content: "Clique em Carteira e depois em Sacar para prosseguir.",
     icon: Download,
   },
   {
-    title: "Detailed Game Rules",
-    content: "Understand the full rules before playing.",
+    title: "Regras Detalhadas do Jogo",
+    content: "Entenda todas as regras antes de jogar.",
     icon: FileText,
   },
 ];

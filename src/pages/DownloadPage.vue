@@ -8,7 +8,7 @@
       >
         <div class="flex items-start gap-4">
           <div class="w-12 flex-shrink-0">
-            <img src="../assets/logo.png" alt="logo" />
+            <img src="../assets/j1-logo.svg" alt="j1 Game Portal" />
           </div>
 
           <!-- Content: Takes remaining space -->
@@ -231,10 +231,10 @@ const iosSections = [
       <strong class="font-medium text-gray-700">"Trust"</strong>.
       <br /><br />
       <span class="text-sm text-gray-500">
-      If the 9d app is available on the App Store, simply search for "9d" and install directly from there.
+      If the j1 app is available on the App Store, simply search for "j1" and install directly from there.
       </span>`,
     downloadLink: "",
-    downloadText: "Baixe o App 9d Agora",
+    downloadText: "Baixe o App j1 Agora",
     safetyText: `Aplicativo oficial e genuíno, verificado para sua segurança. Baixe com confiança.`,
     version: "V2.3.5",
     updatedOn: "2024-03-15",

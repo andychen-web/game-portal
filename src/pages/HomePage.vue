@@ -9,10 +9,10 @@ import Footer from "../components/Footer.vue";
 <template>
   <div class="bg-black p-4">
     <Hero />
-    <JackpotShowcase :amount="1000" />
+    <JackpotShowcase :amount="1000000" />
     <GameCategory />
-    <GameList :title="'Popular'" />
-    <GameList :title="'Slots'" />
+    <GameList :title="'Populares'" />
+    <GameList :title="'Caça-Níqueis'" />
     <Footer />
   </div>
 </template>

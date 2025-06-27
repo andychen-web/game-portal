@@ -1,5 +1,11 @@
 <script setup lang="ts">
 import { Button } from "@/components/ui/button";
+import { useRouter, useRoute } from 'vue-router';
+const router = useRouter();
+const route = useRoute();
+function navigate() {
+  router.push(route.fullPath);
+}
 </script>
 
 <template>
@@ -11,15 +17,15 @@ import { Button } from "@/components/ui/button";
       href="/"
       class="flex items-center text-white font-bold text-base sm:text-lg"
     >
-      <img src="../assets/logo.png" alt="logo" class="h-8 w-auto sm:h-10" />
+      <img src="../assets/j1-logo.svg" alt="j1 Game Portal" class="h-8 w-auto sm:h-10" />
     </a>
 
     <!-- Right: Buttons -->
     <div class="flex gap-2 items-center">
-      <Button variant="outline" class="text-xs sm:text-sm font-medium"
+      <Button variant="outline" class="text-xs sm:text-sm font-medium" @click="navigate"
         >Entrar</Button
       >
-      <Button variant="default" class="text-xs sm:text-sm font-medium"
+      <Button variant="default" class="text-xs sm:text-sm font-medium" @click="navigate"
         >Registrar</Button
       >
     </div>
