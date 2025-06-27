@@ -49,16 +49,16 @@ interface NavItem {
   route?: string;
 }
 const navItems: NavItem[] = reactive([
-  { label: "Home", icon: "home", isActive: false, route: "/" },
-  { label: "Promotions", icon: "tag", isActive: false, route: "/promotions" },
-  { label: "Register", icon: "userplus", isActive: false, route: "/register" },
+  { label: "Início", icon: "home", isActive: false, route: "/" },
+  { label: "Promoções", icon: "tag", isActive: false, route: "/promotions" },
+  { label: "Registrar", icon: "userplus", isActive: false, route: "/register" },
   {
-    label: "Download",
+    label: "Baixar",
     icon: "downloadcloud",
     isActive: false,
     route: "/download",
   },
-  { label: "Account", icon: "user", isActive: false, route: "/account" },
+  { label: "Minha Conta", icon: "user", isActive: false, route: "/account" },
 ]);
 
 const onNavItemClick = (item) => {

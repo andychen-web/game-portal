@@ -4,7 +4,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,7 +16,7 @@ html {
   @apply text-xl sm:text-2xl font-semibold mb-6;
 }
 .page-wrap {
-  @apply container py-4;
+  @apply container py-4 mb-12;
 }
 /* *=========== Default theme =========== */
 /* @layer base {

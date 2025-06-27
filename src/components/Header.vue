@@ -17,10 +17,10 @@ import { Button } from "@/components/ui/button";
     <!-- Right: Buttons -->
     <div class="flex gap-2 items-center">
       <Button variant="outline" class="text-xs sm:text-sm font-medium"
-        >Enter</Button
+        >Entrar</Button
       >
       <Button variant="default" class="text-xs sm:text-sm font-medium"
-        >Register</Button
+        >Registrar</Button
       >
     </div>
   </header>

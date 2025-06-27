@@ -52,7 +52,7 @@
       </div>
 
       <div class="mt-6 sm:mt-8">
-        <p class="text-sm text-gray-200">Account Balance</p>
+        <p class="text-sm text-gray-200">Saldo da Conta</p>
         <p class="text-3xl sm:text-4xl font-bold text-white mt-0.5">
           {{ player.balance }}
         </p>
@@ -65,10 +65,10 @@
           rel="nofollow"
           class="mr-4"
         >
-          <Button class="btn-primary">Deposit</Button>
+          <Button class="btn-primary">Depositar</Button>
         </a>
         <a :href="player.withdrawLink" target="_blank" rel="nofollow">
-          <Button class="bg-gradient-to-br border">Withdraw</Button>
+          <Button class="bg-gradient-to-br border">Sacar</Button>
         </a>
       </div>
     </div>
@@ -78,7 +78,7 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-col items-center text-center space-y-4">
           <p class="text-xl sm:text-2xl font-semibold text-gray-900 max-w-lg">
-            Multi-layer encryption technology to protect your funds and privacy.
+            Tecnologia de criptografia em múltiplas camadas para proteger seus fundos e privacidade.
           </p>
         </div>
       </div>
@@ -88,11 +88,10 @@
 
     <Card class="my-4 p-8 text-center">
       <h2 class="text-2xl sm:text-3xl font-semibold text-[#4B5563] mb-4">
-        Unlock the 9d World: Download the App!
+        Desbloqueie o Mundo 9d: Baixe o App!
       </h2>
       <p class="text-base sm:text-lg text-gray-600 mb-8">
-        Get full access to exclusive games, incredible bonuses and the best
-        Slots performance. Install the 9d app now.
+        Tenha acesso total a jogos exclusivos, bônus incríveis e o melhor desempenho em slots. Instale o app 9d agora.
       </p>
       <a
         href=""
@@ -107,7 +106,7 @@
         >
           <path d="..." />
         </svg>
-        <span>Download App Now</span>
+        <span>Baixar App Agora</span>
       </a>
     </Card>
   </div>

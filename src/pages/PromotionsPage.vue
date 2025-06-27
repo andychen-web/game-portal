@@ -1,6 +1,6 @@
 <template>
   <section class="page-wrap">
-    <h2 class="heading-2">Promotions and Special Offers</h2>
+    <h2 class="heading-2">Promoções e Ofertas Especiais</h2>
 
     <div class="grid sm:grid-cols-1 gap-6 ">
       <Card
@@ -19,14 +19,14 @@
           <div class="relative mx-auto w-full">
             <img
               :src="imgUrl"
-              :alt="`Promotion Image: ${title}`"
+              :alt="`Imagem da Promoção: ${title}`"
               class="w-full h-auto object-cover rounded-t-lg"
             />
             <span
               v-if="tag"
               class="absolute top-3 right-3 bg-primary-500 text-white text-xs font-semibold px-2.5 py-1 rounded-full shadow-sm"
             >
-              {{ tag }}
+              {{ tag === 'NOVO' ? 'NOVO' : tag }}
             </span>
           </div>
 
@@ -60,18 +60,18 @@ const list = reactive<ListItem[]>([
   {
     imgUrl:
       "https://img.9dgame7.com/myimgweb/uploads/images/20250425/680b5034de0b5.webp",
-    title: "VIP Welcome Bonus",
-    desc: "Sign up today and receive an exclusive 150% bonus on your first deposit, plus 50 free spins on our most popular slots.",
+    title: "Bônus de Boas-Vindas VIP",
+    desc: "Cadastre-se hoje e receba um bônus exclusivo de 150% no seu primeiro depósito, além de 50 rodadas grátis em nossos slots mais populares.",
     link: "",
-    tag: "NEW",
+    tag: "NOVO",
   },
   {
     imgUrl:
       "https://img.9dgame7.com/myimgweb/uploads/images/20250425/680b3dd906583.webp",
-    title: "VIP Welcome Bonus",
-    desc: "Sign up today and receive an exclusive 150% bonus on your first deposit, plus 50 free spins on our most popular slots.",
+    title: "Bônus de Boas-Vindas VIP",
+    desc: "Cadastre-se hoje e receba um bônus exclusivo de 150% no seu primeiro depósito, além de 50 rodadas grátis em nossos slots mais populares.",
     link: "",
-    tag: "NEW",
+    tag: "NOVO",
   },
   // Add more promotions here if needed
 ]);

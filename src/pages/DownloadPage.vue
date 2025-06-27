@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4 py-4 max-w-screen-md text-center">
+  <div class="page-wrap mx-auto px-4 py-4 max-w-screen-md text-center">
     <div class="space-y-6">
       <Card
         v-for="({ imgUrl, title, desc, numOfStars, rating }, index) in list"
@@ -42,14 +42,14 @@
             <button
               class="mt-4 self-start bg-primary text-white font-semibold py-2 px-4 rounded-md hover:bg-primary-700 transition"
             >
-              Learn More
+              Saiba Mais
             </button>
           </div>
         </div>
       </Card>
     </div>
 
-    <h2 class="heading-2 text-center p-4">Games Installation Guide</h2>
+    <h2 class="heading-2 text-center p-4">Guia de Instalação dos Jogos</h2>
     <!-- APK -->
     <h3 class="text-xl font-semibold text-[#4B5563] mb-5 flex items-center">
       <svg
@@ -63,7 +63,7 @@
         ></path></svg
       ><font style="vertical-align: inherit"
         ><font style="vertical-align: inherit">
-          Android Installation (APK)
+          Instalação no Android (APK)
         </font></font
       >
     </h3>
@@ -173,19 +173,19 @@
 
           <div class="space-y-2">
             <div class="flex justify-between items-center">
-              <p class="text-sm text-gray-600">Current Version:</p>
+              <p class="text-sm text-gray-600">Versão Atual:</p>
               <p class="text-sm font-medium text-gray-900">
                 {{ section.version }}
               </p>
             </div>
             <div class="flex justify-between items-center">
-              <p class="text-sm text-gray-600">Updated on:</p>
+              <p class="text-sm text-gray-600">Atualizado em:</p>
               <p class="text-sm font-medium text-gray-900">
                 {{ section.updatedOn }}
               </p>
             </div>
             <div class="flex justify-between items-center">
-              <p class="text-sm text-gray-600">File Size:</p>
+              <p class="text-sm text-gray-600">Tamanho do Arquivo:</p>
               <p class="text-sm font-medium text-gray-900">
                 {{ section.fileSize }}
               </p>
@@ -204,23 +204,23 @@ const list = reactive([
   {
     icon: "Download",
     imgUrl: "",
-    title: "Step 1: Game Portal",
-    desc: "The best slots and games for your gaming needs.",
+    title: "Passo 1: Portal de Jogos",
+    desc: "Os melhores slots e jogos para suas necessidades de entretenimento.",
     numOfStars: 5,
     rating: 4.8,
   },
   {
     icon: "Sparkle",
     imgUrl: "",
-    title: "Step 2: Game Portal",
-    desc: "The best slots and games for your gaming needs.",
+    title: "Passo 2: Portal de Jogos",
+    desc: "Os melhores slots e jogos para suas necessidades de entretenimento.",
     numOfStars: 5,
     rating: 4.8,
   },
 ]);
 const iosSections = [
   {
-    title: "IOS Installation (IOS)",
+    title: "Instalação no iOS (iOS)",
     iconSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 text-[#4B5563]">
       <path d="M12 2.052L22.536 6.276C22.846 6.413 23.041 6.715 23.031 7.037C22.856 12.075 20.328 16.628 16.124 19.315L12 21.999L7.876 19.315C3.672 16.628 1.144 12.075 0.969 7.037C0.959 6.715 1.154 6.413 1.464 6.276L12 2.052ZM12 4.235L3.004 7.723C3.068 11.71 4.917 15.48 8.441 17.764L12 19.878L15.559 17.764C19.083 15.48 20.932 11.71 20.996 7.723L12 4.235ZM12 7C13.6569 7 15 8.34315 15 10C15 11.6569 13.6569 13 12 13C10.3431 13 9 11.6569 9 10C9 8.34315 10.3431 7 12 7ZM12 9C11.4477 9 11 9.44772 11 10C11 10.5523 11.4477 11 12 11C12.5523 11 13 10.5523 13 10C13 9.44772 12.5523 9 12 9ZM17.0005 17C16.8687 16.1951 16.2465 15.5106 15.2835 15.1542C14.3467 14.8071 13.1995 14.5 12.0005 14.5C10.8015 14.5 9.65431 14.8071 8.71753 15.1542C7.75454 15.5106 7.13232 16.1951 7.00049 17H17.0005Z" />
     </svg>`,
@@ -234,8 +234,8 @@ const iosSections = [
       If the 9d app is available on the App Store, simply search for "9d" and install directly from there.
       </span>`,
     downloadLink: "",
-    downloadText: "Download the 9d App Now",
-    safetyText: `Official and genuine APP, verified for safety. Download with confidence.`,
+    downloadText: "Baixe o App 9d Agora",
+    safetyText: `Aplicativo oficial e genuíno, verificado para sua segurança. Baixe com confiança.`,
     version: "V2.3.5",
     updatedOn: "2024-03-15",
     fileSize: "Approx. 45 MB",

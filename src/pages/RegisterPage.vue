@@ -29,13 +29,13 @@
           <button
             class="mt-4 bg-primary font-semibold py-2 px-4 text-white rounded-md text-left"
           >
-            Learn More
+            Saiba Mais
           </button>
         </Card>
       </div>
     </div>
     <!-- Card List -->
-    <h2 class="heading-2 text-center">Customer Service Channels</h2>
+    <h2 class="heading-2 text-center">Canais de Atendimento ao Cliente</h2>
     <div class="container mx-auto px-4 py-4 max-w-screen-md text-center">
       <div class="space-y-6">
         <Card
@@ -66,7 +66,7 @@
               <button
                 class="mt-4 self-start bg-primary text-white font-semibold py-2 px-4 rounded-md hover:bg-primary-700 transition"
               >
-                Learn More
+                Saiba Mais
               </button>
             </div>
           </div>
